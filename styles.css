@@ -1,79 +1,80 @@
 /* Basic styling for the entire body */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6; 
-    margin: 0; 
-    padding: 0; 
-    background-color: #f4f4f4; 
-    color: #333; 
-    display: flex; 
-    flex-direction: column; 
-    min-height: 100vh; 
+    font-family: Arial, sans-serif; /* Font family */
+    line-height: 1.6; /* Line height */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+    background-color: #f4f4f4; /* Background color */
+    color: #333; /* Text color */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Column layout */
+    min-height: 100vh; /* Minimum height of viewport */
 }
 
 /* Styling for the header section */
 header {
-    background: #333; 
-    color: #fff; 
-    padding: 1rem 0; 
-    text-align: center; 
+    background: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 1rem 0; /* Padding */
+    text-align: center; /* Centered text */
 }
 
 header h1 {
-    margin: 0; 
+    margin: 0; /* No margin */
 }
 
 header img {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    display: block; 
-    margin: 1rem auto; 
+    width: 150px; /* Width of the image */
+    height: 150px; /* Height of the image */
+    border-radius: 50%; /* Circular image */
+    display: block; /* Block display */
+    margin: 1rem auto; /* Center the image */
 }
 
 /* Main content area */
 main {
-    flex: 1; 
+    flex: 1; /* Flex grow to take remaining space */
 }
 
 /* Section styling */
 section {
-    max-width: 800px; 
-    margin: 2rem auto; 
-    padding: 1rem; 
-    background: #fff; 
-    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    max-width: 800px; /* Maximum width */
+    margin: 2rem auto; /* Center the section */
+    padding: 1rem; /* Padding */
+    background: #fff; /* Background color */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow for the section */
 }
 
 section h2 {
-    color: #333; 
-    margin-top: 0;
+    color: #333; /* Text color */
+    margin-top: 0; /* No top margin */
 }
 
 /* Styling for lists */
 ul {
-    list-style-type: none; 
-    padding: 0; 
+    list-style-type: none; /* No bullet points */
+    padding: 0; /* No padding */
 }
 
 ul li {
-    padding: 0.5rem 0; 
+    padding: 0.5rem 0; /* Padding for list items */
 }
 
 /* Link styling */
 a {
-    color: #0066cc; 
-    text-decoration: none; 
+    color: #0066cc; /* Link color */
+    text-decoration: none; /* No underline */
 }
 
 a:hover {
-    text-decoration: underline; 
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Styling for the footer */
 footer {
-    text-align: center; 
-    padding: 1rem; 
-    background: #333; 
-    color: #fff; 
+    text-align: center; /* Centered text */
+    padding: 1rem; /* Padding */
+    background: #333; /* Background color */
+    color: #fff; /* Text color */
 }
+
