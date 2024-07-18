@@ -6,10 +6,14 @@
     <title>Gryphon Illes Bekaardt - Online CV</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
+<script>
+    const EMAIL = "bekaardt21@gmail.com";
+    const LINKEDIN_URL = "https://www.linkedin.com/in/gryphon-bekaardt-4b56a52a0";
+</script>
 <body>
     <header>
         <h1>Gryphon Illes Bekaardt</h1>
-        <img src="Images/Grad.png" alt="Gryphon Illes Bekaardt"> <!-- Profile image -->
+        <img src="images/Grad.png" alt="Gryphon Illes Bekaardt"> <!-- Profile image -->
         <p>A passionate IT professional and animal lover.</p>
     </header>
     <main>
@@ -29,9 +33,9 @@
             <h2>Contact Details</h2>
             <ul>
                 <li>Name: Gryphon Illes Bekaardt</li>
-                <li>Contact Number: 062-531-7686</li>
-                <li>Email: bekaardt21@gmail.com</li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/gryphon-bekaardt-4b56a52a0" target="_blank">Gryphon Bekaardt</a></li> <!-- LinkedIn profile link -->
+                <li>Contact Number: 062 531 7686</li>
+                <li>Email: <span id="email"></span></li>
+                <li>LinkedIn: <a id="linkedin" href="#" target="_blank">Gryphon Bekaardt</a></li>
             </ul>
         </section>
         <section id="skills">
@@ -71,5 +75,10 @@
     <footer>
         <p>&copy; 2024 Gryphon Illes Bekaardt. All rights reserved.</p> <!-- Footer content -->
     </footer>
+    <script>
+        document.getElementById('email').textContent = EMAIL;
+        document.getElementById('linkedin').href = LINKEDIN_URL;
+    </script>
 </body>
 </html>
+
